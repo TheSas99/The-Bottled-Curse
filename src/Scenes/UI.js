@@ -11,10 +11,10 @@ export default class UIScene extends Phaser.Scene {
 
   create () {
     // create score text
-    this.scoreText = this.add.text(20, 12, `Score: ${this.coinsCollected}`, { fontSize: '32px', fill: '#fff', fontFamily: "VT323" });
+    this.scoreText = this.add.text(10, 12, `Score:${this.coinsCollected}`, { fontSize: '30px', fill: '#fff', fontFamily: "VT323" });
 
     // create health text
-    this.healthText = this.add.text(20, 50, `Health: 10`, { fontSize: '32px', fill: '#fff', fontFamily: "VT323" });
+    this.healthText = this.add.text(10, 50, `Health:10`, { fontSize: '30px', fill: '#fff', fontFamily: "VT323" });
 
     //create control text
     this.controlText = this.add.text(window.innerWidth/2.5,window.innerHeight/1.0625, `Arrow keys/Left-Stick: Walk, Space bar/A: Shoot`, { fontSize: '18px', fontFamily: "VT323", fill: '#fff', align: 'center' });
