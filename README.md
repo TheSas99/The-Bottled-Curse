@@ -1,6 +1,7 @@
 # How to play the game
 
 You could play this game by downloading the files from https://github.com/TheSas99/Pirate and follow the steps below
+
 Step 1: Download/copy this project
 
 Step 2: Open Microsoft Powershell
@@ -16,3 +17,7 @@ Step 6: The game is now fully playable locally in your browser.
 Step 7: Have fun!
 
 You can also play this game by just opening this link: https://thesas99.github.io/The-Bottled-Curse/
+
+# Feedback
+
+You can give feedback by commenting or all the other features from github
